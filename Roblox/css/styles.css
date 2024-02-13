@@ -1,0 +1,141 @@
+/* CSS Document */
+
+/* Author: Lillian Carr
+   Title: styles.css
+   Date: 2/6/24 */
+
+/* Style rules for body and images */
+body {
+	background-color: #3b3b3b;
+	padding: 4%;
+	margin: 0 auto;
+}
+
+img {
+	padding: 3%;
+	max-height: 300px;
+	max-width: 200px;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style rules for Welcome Page */
+#scam {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	text-align: left;
+	padding: 1%;
+	margin: 3%;
+}
+
+#scam p:hover {
+	font-size: 1.5em;
+}
+
+#scam h1 {
+	font-size: 3em;
+	text-align: left;
+	padding: 2%;
+}
+
+#covid {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: bold;
+	text-align: left;
+	padding: 1%;
+	margin: 3%;
+}
+
+#covid p:hover {
+	font-size: 1.5em;
+}
+
+#covid h1 {
+	font-size: 3em; 
+	text-align: left;
+	padding: 2%;
+}
+
+/* Style rules for navigation */
+nav {
+	font-size: 2em;
+	padding: 0.5%;
+	margin: 2%;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-style: oblique;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: #999;
+	padding: 1%;
+	margin: 1.5%;
+}
+
+nav a:hover {
+	font-size: 1.2em;
+	text-shadow: 0.3px 2px 1.5px;
+	color: #000;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-style: oblique;
+  text-shadow: 1px 2px 3px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-style: italic;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+/* Style rules for paragraph element */
+p {
+  padding: 1%;
+  text-align: left;
+  color: #BCB8B8;
+  font-style: italic;
+}
+
+/* Style rules for header element */
+header {
+	padding: 1%;
+	margin: 3%;
+}
+
+/* Styles Rules for history and development */
+#history {
+	text-shadow: 1px 1px 8px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 1.3em;
+}
+
+/* Style rules for footer element */
+footer {
+	text-align: center;
+	padding: 3%;
+	font-size: 1.2em;
+	font-style: italic; 
+	clear: both;
+	min-width: 200px;
+	background-color: #666565;
+	bottom: 0;
+	width: 100%;
+}
